@@ -26,9 +26,9 @@ RSpec.describe Quote::Submission, type: :model do
         length: 20,
         height: 35,
         dimension_unit: 'cm',
-
         weight: 30,
-        weight_unit: 'kg'
+        weight_unit: 'kg',
+        number_of_item: 1
       }],
 
       contact_attributes: {
@@ -79,7 +79,8 @@ RSpec.describe Quote::Submission, type: :model do
         dimension_unit: 'm',
 
         weight: 60,
-        weight_unit: 'lbs'
+        weight_unit: 'lbs',
+        number_of_item: 1
       }],
 
       contact_attributes: {

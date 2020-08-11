@@ -44,6 +44,7 @@ gem "sprockets-rails", git: 'git://github.com/rails/sprockets-rails.git'
 gem 'jwt'
 gem 'devise-jwt', '~> 0.6.0'
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

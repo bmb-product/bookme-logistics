@@ -77,7 +77,7 @@ class Quote::SubmissionsController < ApplicationController
             pickup_address_attributes: [:id, :name, :lat, :lon], 
             delivery_address_attributes: [:id, :name, :lat, :lon],
             contact_attributes: [:id, :name, :email, :phone_number, :title],
-            shipment_items_attributes: [:id, :width, :length, :height, :weight, :weight_unit, :dimension_unit]
+            shipment_items_attributes: [:id, :width, :length, :height, :weight, :weight_unit, :dimension_unit, :number_of_item]
           )
       result
     end

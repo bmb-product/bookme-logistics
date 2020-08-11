@@ -73,6 +73,8 @@ RSpec.configure do |config|
   config.include JsonResponseHelper, type: :request
   config.include JsonResponseHelper, type: :controller
 
+  config.include JwtRequestHeaderHelper, type: :request
+
   # Database cleaner
   
   config.before(:suite) do
@@ -85,7 +87,4 @@ RSpec.configure do |config|
       example.run
     end
   end
-
-
-
 end
